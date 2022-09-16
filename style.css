@@ -120,7 +120,6 @@ section {
 
 .item:hover {
   backdrop-filter: blur(0.9375rem);
-  box-shadow: 0rem 0.9375rem 2.625rem -0.6875rem rgba(131, 166, 210, 0.4);
   filter: saturate(1.5);
   transition: cubic-bezier(0.77, 0, 0.175, 1) 0.4s;
 }
@@ -170,18 +169,22 @@ section {
 
 .item-cyan:hover {
   border-top: 12px solid var(--color-cyan);
+  box-shadow: 0rem 0.9375rem 2.625rem -0.6875rem var(--color-cyan);
 }
 
 .item-red:hover {
   border-top: 12px solid var(--color-red);
+  box-shadow: 0rem 0.9375rem 2.625rem -0.6875rem var(--color-red);
 }
 
 .item-orange:hover {
   border-top: 12px solid var(--color-orange);
+  box-shadow: 0rem 0.9375rem 2.625rem -0.6875rem var(--color-orange);
 }
 
 .item-blue:hover {
   border-top: 12px solid var(--color-blue);
+  box-shadow: 0rem 0.9375rem 2.625rem -0.6875rem var(--color-blue);
 }
 
 @media (min-width: 376px) {
